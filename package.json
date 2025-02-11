@@ -5,10 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "out": "export",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "gh-pages -d .next"
+    "lint": "next lint"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.15",
