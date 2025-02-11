@@ -1,5 +1,3 @@
-
-
 export default function Home() {
   return (
     <main className="w-full flex flex-col items-center">
@@ -8,7 +6,7 @@ export default function Home() {
           <div>
             <p>
               I am an MEng student at MIT studying Electrical Engineering and
-              Computer Science. 
+              Computer Science.
             </p>
             <p>
               Please contact me at tcqian [at] mit [dot] edu if you would like

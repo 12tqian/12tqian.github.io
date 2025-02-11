@@ -29,7 +29,7 @@ const links = [
   {
     name: "Resume",
     href: "/resume",
-  }
+  },
 ];
 
 const Header: React.FC = () => {
@@ -42,8 +42,6 @@ const Header: React.FC = () => {
   });
 
   return (
-
-
     <nav className="w-full">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-xl">
@@ -53,13 +51,11 @@ const Header: React.FC = () => {
           {pageTitle && <span className="text-black"> — {pageTitle}</span>}
         </div>
         <ul className="flex space-x-4 items-center text-black">
-          {
-            links.map((link) => (
-              <li key={link.href} className="block ">
-                <Navlink href={link.href} label={link.name} />
-              </li>
-            ))
-          }
+          {links.map((link) => (
+            <li key={link.href} className="block ">
+              <Navlink href={link.href} label={link.name} />
+            </li>
+          ))}
           {/* <li className="hidden md:block">
             <Navlink href="/" label="Home" />
           </li> */}

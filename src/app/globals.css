@@ -59,7 +59,6 @@ div {
   color: var(--color-text);
 }
 
-
 html {
   @apply motion-safe:scroll-smooth;
 }

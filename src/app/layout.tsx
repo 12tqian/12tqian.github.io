@@ -5,6 +5,7 @@ import "./globals.css";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { Providers } from "./providers";
+import { PageWrapper } from "./components/PageWrapper";
 
 const inter = Open_Sans({ subsets: ["latin"] });
 
@@ -25,7 +26,8 @@ export default function RootLayout({
           <div className="flex flex-col min-h-screen items-center p-4 pt-8">
             <div className="max-w-3xl w-full flex flex-col space-between items-center">
               <Header />
-              {children}
+              {/* {children} */}
+              <PageWrapper children={children} />
               <Footer />
             </div>
           </div>
