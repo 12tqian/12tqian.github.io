@@ -27,6 +27,12 @@ jobs:
 
       - name: Build Next.js App
         run: npm run build
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          name: 'github-pages'
+          path: '.next'
 
       - name: Publish to GitHub Pages 
         id: deployment
