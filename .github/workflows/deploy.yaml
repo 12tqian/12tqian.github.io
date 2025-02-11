@@ -6,7 +6,9 @@ on:
       - main # Change to your default branch if needed
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build-and-deploy:
