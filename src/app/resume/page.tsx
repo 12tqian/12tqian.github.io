@@ -225,4 +225,3 @@ export default function Resume() {
     </main>
   );
 }
-// https://patents.justia.com/patent/20230259806
