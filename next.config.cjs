@@ -6,6 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // GitHub Pages does not support Next.js image optimization
   },
+  trailingSlash: true, // Ensures that the site works with GitHub Pages
 };
 
 module.exports = nextConfig;
