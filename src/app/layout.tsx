@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className={`${inter.className} font-sans bg-white`}>
         <Providers>
           <div className="flex flex-col min-h-screen items-center p-4 pt-8">
-            <div className="max-w-3xl w-full flex flex-col space-between items-center">
+            <div className="w-full flex flex-col space-between items-center">
               <Header />
               {/* {children} */}
               <PageWrapper>{children}</PageWrapper>

@@ -4,7 +4,7 @@ import { Mail } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="w-full py-4">
+    <footer className="layout-md py-4">
       <div className="flex flex-col items-center">
         <hr className="w-64 border-t border-gray-300 mb-4" />
         <div className="flex justify-center space-x-6">
@@ -33,6 +33,14 @@ const Footer: React.FC = () => {
             <Mail size={24} />
           </Link>
         </div>
+        <p className="text-gray-500 text-sm mt-4">
+          Design inspired by{" "}
+          <Link href="https://www.ekzhang.com" className="underline">
+            {" "}
+            Eric Zhang
+          </Link>{" "}
+          :)
+        </p>
       </div>
     </footer>
   );

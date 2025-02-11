@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-full flex flex-col items-center">
+    <main className="layout-md flex flex-col items-center">
       <div className="flex flex-col items-center w-full mt-8">
         <div className="flex flex-col w-full items-start">
           <div>
