@@ -6,8 +6,6 @@ const nextConfig = {
   images: {
     unoptimized: true, // GitHub Pages does not support Next.js image optimization
   },
-  
-  distDir: "out", 
 };
 
 module.exports = nextConfig;
