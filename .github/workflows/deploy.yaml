@@ -26,8 +26,6 @@ jobs:
       - name: Build Next.js App
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: .next
+      - name: Publish to GitHub Pages 
+        id: deployment
+        uses: actions/deploy-pages@v4
