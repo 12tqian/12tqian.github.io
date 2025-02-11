@@ -27,8 +27,6 @@ jobs:
 
       - run: npm run build
 
-      - run: mv .next build
-      
       - uses: JamesIves/github-pages-deploy-action@4.1.8
         with:
           branch: gh-pages
