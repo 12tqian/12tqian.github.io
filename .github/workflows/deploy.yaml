@@ -31,6 +31,11 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v4
 
+      - name: Upload Directory
+        uses: actions/upload-artifact@v2
+        with:
+          name: public
+
       - name: Publish to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
