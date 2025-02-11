@@ -7,7 +7,7 @@ const nextConfig = {
     unoptimized: true, // GitHub Pages does not support Next.js image optimization
   },
   trailingSlash: true, // Ensures that the site works with GitHub Pages
-  distDir: "out", // Changes the build directory to "build"
+  distDir: "build", // Changes the build directory to "build"
 };
 
 module.exports = nextConfig;
