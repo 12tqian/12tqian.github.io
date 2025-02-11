@@ -34,9 +34,10 @@ const links = [
 
 const Header: React.FC = () => {
   let pageTitle: string | null = null;
+  const pathname = usePathname();
 
   links.forEach((link) => {
-    if (link.href === usePathname()) {
+    if (link.href === pathname) {
       pageTitle = link.name;
     }
   });

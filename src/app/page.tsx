@@ -7,8 +7,8 @@ export default function Home() {
         <div className="flex flex-col w-full items-start">
           <div>
             <p>
-              I'm an MEng student at MIT studying Electrical Engineering and
-              Computer Science.
+              I&apos;m an MEng student at MIT studying Electrical Engineering
+              and Computer Science.
             </p>
 
             <p>I like language models and over-optimizing computer programs.</p>

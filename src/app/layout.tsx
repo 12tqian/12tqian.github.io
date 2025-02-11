@@ -27,7 +27,7 @@ export default function RootLayout({
             <div className="max-w-3xl w-full flex flex-col space-between items-center">
               <Header />
               {/* {children} */}
-              <PageWrapper children={children} />
+              <PageWrapper>{children}</PageWrapper>
               <Footer />
             </div>
           </div>
