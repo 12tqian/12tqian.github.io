@@ -20,17 +20,16 @@ const Workplace: React.FC<WorkplaceProps> = ({
   children,
 }) => {
   return (
-    <div className="mb-8">
+    <div className="mb-8 w-full">
       <h3 className="text-black text-lg leading-tight mb-1">
         {title} at{" "}
         <Link href={url} className="text-gray-500 underline">
           {company}
         </Link>
       </h3>
-      <p className="font-light mb-2">
-        <span className="whitespace-nowrap">{dates}</span>
-        <span className="px-0.5 text-neutral-500">•</span>
+      <p className="font-light mb-2 justify-between flex w-full text-gray-500">
         <span className="whitespace-nowrap">{location}</span>
+        <span className="whitespace-nowrap">{dates}</span>
       </p>
       {children}
     </div>
