@@ -32,7 +32,7 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Upload Directory
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: public
 
