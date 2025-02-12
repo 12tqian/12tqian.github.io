@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Resume() {
   return (
-    <main className="layout-md flex flex-col items-start py-12">
-      <p className="text-xl font-bold text-black mt-8">Education</p>
+    <main className="layout-md flex flex-col items-start py-10">
+      <p className="text-xl font-bold text-black">Education</p>
 
       <div className="w-full">
         <div className="flex items-end justify-between">
