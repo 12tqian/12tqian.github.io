@@ -134,7 +134,7 @@ export default function Resume() {
         </li>
       </Workplace>
       <Workplace
-        title="Optimal Measurement of Field Properties with Quantum Sensor Networks"
+        title="Optimal Measurement of Field Properties with Quantum Sensor Networks with Prof. Alexey Gorshkov"
         company="UMD JQI"
         dates="2020, 2021"
         location="College Park, MD"
