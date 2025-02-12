@@ -85,7 +85,7 @@ export default function Resume() {
       </Workplace>
 
       <Workplace
-        title="Cooperative Multi‑Agent Reinforcement Learning  with Prof. Dylan Hadfield-Menell"
+        title="Cooperative Multi‑Agent Reinforcement Learning with Prof. Dylan Hadfield-Menell"
         company="MIT CSAIL"
         dates="2024"
         location="Cambridge, MA"
@@ -101,7 +101,7 @@ export default function Resume() {
         </li>
       </Workplace>
       <Workplace
-        title="2D Object Detection with Learning Proximal Operators"
+        title="2D Object Detection with Learning Proximal Operators with Prof. Justin Solomon"
         company="MIT CSAIL"
         dates="2022, 2023"
         location="Cambridge, MA"
