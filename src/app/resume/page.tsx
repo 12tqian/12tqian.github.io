@@ -5,17 +5,6 @@ export default function Resume() {
   return (
     <main className="layout-md flex flex-col items-start py-12">
       <p className="text-xl font-bold text-black mt-8">Education</p>
-      <div className="mb-4 w-full">
-        <div className="flex items-end justify-between">
-          <h3 className="text-black text-lg">
-            Massachusetts Institute of Technology
-          </h3>
-          <div className="text-neutral-500 mb-0.5">2021 — 2024</div>
-        </div>
-        <p className="text-sm text-gray-500">
-          B.S. in Electrical Engineering and Computer Science (GPA: 5.0/5.0)
-        </p>
-      </div>
 
       <div className="w-full">
         <div className="flex items-end justify-between">
@@ -26,6 +15,18 @@ export default function Resume() {
         </div>
         <p className="text-sm text-gray-500">
           MEng in Electrical Engineering and Computer Science (GPA: 5.0/5.0)
+        </p>
+      </div>
+
+      <div className="mb-4 w-full">
+        <div className="flex items-end justify-between">
+          <h3 className="text-black text-lg">
+            Massachusetts Institute of Technology
+          </h3>
+          <div className="text-neutral-500 mb-0.5">2021 — 2024</div>
+        </div>
+        <p className="text-sm text-gray-500">
+          B.S. in Electrical Engineering and Computer Science (GPA: 5.0/5.0)
         </p>
       </div>
 
@@ -107,8 +108,8 @@ export default function Resume() {
         url="https://groups.csail.mit.edu/gdpgroup/"
       >
         <li>
-          Developed efficient object-detection pipeline for images without
-          predicting a fixed number of boxes.
+          Developed efficient object-detection pipeline without predicting fixed
+          number of boxes.
         </li>
         <li>
           Used proximal operators to model the problem as a multi-solution
@@ -126,13 +127,10 @@ export default function Resume() {
         location="Cambridge, MA"
         url="https://www.govividly.com/"
       >
-        <li>
-          Migrated database from Firebase to Django, Relay, and GraphQL,
-          enforcing stricter data relations.
-        </li>
+        <li>Migrated database from Firebase to Django, Relay, and GraphQL.</li>
         <li>
           Designed an efficient system for using hierarchical models represented
-          by a directed acyclic graph.
+          by a DAG.
         </li>
       </Workplace>
       <Workplace
