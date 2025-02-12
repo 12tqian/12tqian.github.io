@@ -26,7 +26,7 @@ const Project: React.FC<ProjectProps> = ({
   subimages,
 }) => {
   return (
-    <div className="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12">
+    <div className="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12 mb-12">
       <div className="col-span-3 md:col-span-2">
         {/* Title */}
         <h3 className="text-black text-xl font-semibold mb-2">
