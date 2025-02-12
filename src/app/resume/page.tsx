@@ -30,7 +30,7 @@ export default function Resume() {
         </p>
       </div>
 
-      <h4 className="font-medium mt-4 mb-1">Teaching:</h4>
+      <h4 className="font-medium mt-1 mb-1">Teaching:</h4>
       <ul className="list-disc list-inside">
         <li>TA for Machine Learning (6.7900), Fall 2024</li>
       </ul>
@@ -179,7 +179,7 @@ export default function Resume() {
         </li>
       </Workplace>
 
-      <p className="text-xl font-bold text-black mt-8 mb-3">Awards</p>
+      <p className="text-xl font-bold text-black mt-1 mb-3">Awards</p>
       <div className="mb-4 w-full">
         <h3 className="text-black text-lg">Research:</h3>
         <ul className="list-disc list-inside mb-4">
