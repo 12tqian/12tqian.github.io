@@ -7,6 +7,6 @@ lead: Blezerbot, implemented by Timothy Qian, Gabriel Wu, Kevin Higgs, Colin Gal
 image: battlecode.png
 ---
 
-I participated in Battlecode 2020 with friends from high school in a team called the "blair blezers". Our bot was at some point called altruistic for helping out the opponent.
+I participated in Battlecode 2020 with friends from high school in a team called the "blair blezers". Our bot was at some point called altruistic for helping out the opponent. We made it to the semifinals of the high school bracket.
 
 **Links: [GitHub](https://github.com/GabrielDWu/blezers-battlecode2020), [Livestream](https://www.youtube.com/watch?v=pV24Pqji0Is)**
