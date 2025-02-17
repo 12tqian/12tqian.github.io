@@ -1,5 +1,5 @@
 ---
-title: Battlecode 2020
+title: Battlecode
 date: 2020-01-27
 repo: GabrielDWu/blezers-battlecode2020
 topics: ["Java"]
