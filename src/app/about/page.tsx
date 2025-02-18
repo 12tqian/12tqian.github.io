@@ -8,7 +8,7 @@ export default function About() {
       <div className="mb-5">
         <p className="text-xl font-bold text-black">Computer Science</p>
         <p>
-          I've been a competitive programmer since 6th grade, and I've spent way
+          I&apos;ve been a competitive programmer since 6th grade, and I&apos;ve spent way
           too much time on these websites.
         </p>
         <ul className="list-disc list-inside">
@@ -49,7 +49,7 @@ export default function About() {
             <Link href="http://adt.mit.edu/" className="underline">
               MIT Asian Dance Team
             </Link>{" "}
-            — 7 semesters of ADT later and my dancing still hasn't
+            — 7 semesters of ADT later and my dancing still hasn&apos;t
             improved.{" "}
           </li>
           <li>
@@ -59,7 +59,7 @@ export default function About() {
             >
               ICPC
             </Link>{" "}
-            — Making sure my algorithm skills haven't completely disappeared.
+            — Making sure my algorithm skills haven&apos;t completely disappeared.
           </li>
           <li>
             <Link href="https://hackmit.org" className="underline">
