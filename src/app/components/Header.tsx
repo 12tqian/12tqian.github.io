@@ -25,16 +25,16 @@ const Navlink: React.FC<{
 
 const links = [
   {
-    name: "Home",
-    href: "/",
-  },
-  {
     name: "Projects",
     href: "/projects",
   },
   {
     name: "Resume",
     href: "/resume",
+  },
+  {
+    name: "About",
+    href: "/about",
   },
 ];
 
