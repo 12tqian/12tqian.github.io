@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
-import { Mail } from "lucide-react";
-
+import { Mail, GraduationCap } from "lucide-react";
 const Footer: React.FC = () => {
   return (
     <footer className="layout-md py-4">
@@ -31,6 +30,14 @@ const Footer: React.FC = () => {
             className="text-gray-500 hover:text-black"
           >
             <Mail size={24} />
+          </Link>
+          <Link
+            href="https://scholar.google.com/citations?user=bX26j7UAAAAJ&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:text-black"
+          >
+            <GraduationCap size={24} />
           </Link>
         </div>
         <p className="text-gray-500 text-sm mt-4">

@@ -16,6 +16,7 @@
     "katex": "^0.16.15",
     "lucide-react": "^0.428.0",
     "next": "^14.2.23",
+    "next-seo": "^6.6.0",
     "next-themes": "^0.3.0",
     "prose": "^0.0.1",
     "react": "^18",
