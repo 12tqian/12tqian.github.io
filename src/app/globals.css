@@ -13,31 +13,8 @@
   --background-rgb: 244, 244, 245;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-rgb:
-      39, 39, 42; /* Slightly darker gray (gray-900 in Tailwind)  #27272a*/
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --foreground-rgb: 0, 0, 0;
-    --background-rgb: 244, 244, 245;
-  }
-}
-
-[data-theme="light"] {
-  --color-text: 0, 0, 0;
-}
-
-[data-theme="dark"] {
-  --color-text: 255, 255, 255;
-}
-
 body {
-  color: var(--color-text);
+  color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
 }
 
@@ -56,7 +33,7 @@ h5,
 h6,
 span,
 div {
-  color: var(--color-text);
+  color: rgb(var(--foreground-rgb));
 }
 
 html {
