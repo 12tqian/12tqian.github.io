@@ -66,7 +66,7 @@ export default function Resume() {
 
       <p className="text-xl font-bold text-black mt-8 mb-3">Experience</p>
       <Workplace
-        title="Layered Unlearning for Adversarial Relearningwith Prof. Dylan Hadfield-Menell"
+        title="Layered Unlearning for Adversarial Relearning with Prof. Dylan Hadfield-Menell"
         company="MIT CSAIL"
         dates="2025"
         location="Cambridge, MA"
