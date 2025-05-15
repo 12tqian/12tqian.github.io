@@ -5,7 +5,6 @@ export default function Resume() {
   return (
     <main className="layout-md flex flex-col items-start py-10">
       <p className="text-xl font-bold text-black">Education</p>
-
       <div className="w-full">
         <div className="flex items-end justify-between">
           <h3 className="text-black text-lg">
@@ -66,6 +65,37 @@ export default function Resume() {
       </ul>
 
       <p className="text-xl font-bold text-black mt-8 mb-3">Experience</p>
+      <Workplace
+        title="Layered Unlearning for Adversarial Relearningwith Prof. Dylan Hadfield-Menell"
+        company="MIT CSAIL"
+        dates="2025"
+        location="Cambridge, MA"
+        url="https://algorithmicalignment.csail.mit.edu/"
+      >
+        <li>
+          Proposed Layered Unlearning (LU) for robustness against adversarial
+          relearning.
+        </li>
+        <li>
+          Designed synthetic experiments and proposed theory to interpret
+          results.
+        </li>
+        <li>
+          Evaluated LU on LLM unlearning benchmarks and showed robustness over
+          existing methods.
+        </li>
+        <li>
+          Preprint: [
+          <Link
+            href="https://arxiv.org/abs/2505.09500"
+            className="text-gray-500 underline"
+          >
+            arXiv:2505.09500
+          </Link>
+          ]
+        </li>
+      </Workplace>
+
       <Workplace
         title="Quantitative Research Intern"
         company="Citadel Securities"
