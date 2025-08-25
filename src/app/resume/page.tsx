@@ -79,7 +79,7 @@ export default function Resume() {
           Designed methods to probe decision boundaries between chunks using base models.
         </li>
         <li>
-          Assessed consistency in how language models rely on spurious prompt features across model families.
+          Assessed consistency in how language models rely on spurious prompt features.
         </li>
       </Workplace>
       <Workplace
