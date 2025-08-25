@@ -73,7 +73,7 @@ export default function Resume() {
         url="http://matsprogram.org/gallery8"
       >
         <li>
-          Framed LLM behavior as mapping input prompts to post-training data “chunks.”
+          Framed LLM behavior as mapping input prompts to post-training data “chunks".
         </li>
         <li>
           Designed methods to probe decision boundaries between chunks using base models.
