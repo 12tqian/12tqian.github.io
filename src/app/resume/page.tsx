@@ -66,6 +66,23 @@ export default function Resume() {
 
       <p className="text-xl font-bold text-black mt-8 mb-3">Experience</p>
       <Workplace
+        title="Chunky Post-training with Seoirse Murray, Sara Price, Collin Burns, John Schulman"
+        company="MATS"
+        dates="2025"
+        location="Berkeley, CA"
+        url="http://matsprogram.org/gallery8"
+      >
+        <li>
+          Framed LLM behavior as mapping input prompts to post-training data “chunks.”
+        </li>
+        <li>
+          Designed methods to probe decision boundaries between chunks using base models.
+        </li>
+        <li>
+          Assessed consistency in how language models rely on spurious prompt features across model families.
+        </li>
+      </Workplace>
+      <Workplace
         title="Layered Unlearning for Adversarial Relearning with Prof. Dylan Hadfield-Menell"
         company="MIT CSAIL"
         dates="2025"
